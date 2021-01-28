@@ -1,0 +1,10 @@
+:root {
+    --bebas: 'Bebas Neue', cursive;
+    --staat: 'Staatliches', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
