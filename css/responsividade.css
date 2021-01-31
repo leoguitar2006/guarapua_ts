@@ -1,0 +1,60 @@
+html {
+    font-size: 1rem;
+}
+
+/* X-Small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 1px) {
+    #img-logo {
+        width: 145px;
+        height: 27px;
+    }
+}
+
+@media (min-width: 281px) { /* Para funcionar no Galaxy Fold*/
+    #img-logo {
+        width: 200px;
+        height: 36px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    #img-logo {
+        width: 400px;
+        height: 75px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 769px) { 
+    #img-logo {
+        width: 400px;
+        height: 75px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    #img-logo {
+        width: 20400px;
+        height: 75px;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    #img-logo {
+        width: 400px;
+        height: 75px;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    #img-logo {
+        width: 400px;
+        height: 75px;
+    }
+ }
