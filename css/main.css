@@ -20,10 +20,11 @@ body {
 
 }
 
+
 .nav-item .nav-link {
     color: var(--azul-claro)!important;
     font-weight: 700;
-    font-size: 1.2rem;   
+    font-size: 1.2rem; 
 }
 
 .nav-item .nav-link:hover {
