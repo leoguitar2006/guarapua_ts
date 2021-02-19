@@ -1,8 +1,20 @@
-$("#drones-e-satelites").click(function(e) {
+$("#drones").click(function(e) {
  
     e.preventDefault();
  
-    var obj = "#drones-satelites";
+    var obj = "#drones-section";
+ 
+    $('html, body').animate({
+        scrollTop: $(obj).offset().top
+    }, 1200);
+ 
+});
+
+$("#contato").click(function(e) {
+ 
+    e.preventDefault();
+ 
+    var obj = "#contato-section";
  
     $('html, body').animate({
         scrollTop: $(obj).offset().top

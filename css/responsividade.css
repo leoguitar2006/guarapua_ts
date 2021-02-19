@@ -10,12 +10,20 @@ html {
         width: 145px;
         height: 27px;
     }
+
+    .form-group.row label.col-form-label {
+        text-align: left;
+    }
 }
 
 @media (min-width: 281px) { /* Para funcionar no Galaxy Fold*/
     #img-logo {
         width: 200px;
         height: 36px;
+    }
+
+    .form-group.row label.col-form-label {
+        text-align: left;
     }
 }
 
@@ -24,6 +32,9 @@ html {
     #img-logo {
         width: 400px;
         height: 75px;
+    }
+    .form-group.row label.col-form-label {
+        text-align: right;
     }
  }
 
