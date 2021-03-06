@@ -17,10 +17,9 @@
 
 body {
     font-family: var(--ubuntu);
-
 }
 
-
+/*-- Navbar --*/
 .nav-item .nav-link {
     color: var(--azul-claro)!important;
     font-weight: 700;
@@ -30,6 +29,8 @@ body {
 .nav-item .nav-link:hover {
     color: var(--azul-principal)!important; 
 }
+
+/* -- Caorusel --*/
 
 .carousel-caption {
     bottom: 3rem;
@@ -56,6 +57,53 @@ body {
     top: 0;
 }
 
+/* -- Main --*/
+
+.servicos_drones {
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.servicos_drones img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#info-contato p:nth-child(1) img, 
+#info-contato p:nth-child(2) img{
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+#info-contato p:nth-child(3) img, 
+#info-contato p:nth-child(4) img{
+    width: 24px;
+    height: 24px;
+}
+
+
+#info-contato img {   
+    margin-right: 1rem;
+}
+
+#info-contato .img-endereco img {
+    width: 24px;
+    height: 24px;
+}
+
+.container-endereco {
+    display: flex;
+}
+
+.desc-endereco span {
+    display: block;
+}
+
 a.back-to-top {
     position: fixed;
     display: block;
@@ -71,7 +119,35 @@ a.back-to-top {
     text-align: right;
 }
 
-/* #contato div.container-fluid {
-    background-color: var(--azul-claro)!important;
-} */
+span.endereco {
+    word-wrap: break-word;
+}
 
+
+.info-cursos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-cursos .img-curso img{
+    height: 400px;
+    width: 400px;
+    margin-right: 4rem;
+    margin-left: 4.5rem;
+}
+
+.curso-item img {
+    margin-bottom: 1rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#drones-section > div, #contato-section > div {
+    background-color: var(--azul-claro);
+}
+
+footer.footer {
+    background-color: var(--azul-principal);
+}
