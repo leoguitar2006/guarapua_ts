@@ -45,3 +45,15 @@ $("#cursos").click(function(e) {
     }, 1200);
  
 });
+
+$("#carrosel").click(function(e) {
+ 
+    e.preventDefault();
+ 
+    var obj = "#section-carousel";
+ 
+    $('html, body').animate({
+        scrollTop: $(obj).offset().top
+    }, 1200);
+ 
+});
