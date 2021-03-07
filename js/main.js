@@ -57,3 +57,7 @@ $("#carrosel").click(function(e) {
     }, 1200);
  
 });
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
