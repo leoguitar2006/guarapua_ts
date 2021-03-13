@@ -67,11 +67,38 @@ body {
     text-align: center;
 }
 
-.servicos_drones img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+.drone-serv {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18rem;
+    height: 11rem;
+    border-radius: 5%;
 }
+
+.drone-serv.inspecoes {
+    background-image: url("../img/engenheiro.jpeg");
+}
+
+.drone-serv.marketing {
+    background-image: url("../img/drone_branco2.jpeg");
+}
+
+.drone-serv.acompanhamento {
+    background-image: url("../img/drone_branco.jpeg");
+}
+
+.drone-serv.projetos {
+    background-image: url("../img/drone_fly.jpeg");
+}
+
+.drone-serv.analises {
+    background-image: url("../img/servico2.jpeg");
+}
+
+.drone-serv.fotogrametria {
+    background-image: url("../img/servico1.jpeg");
+}
+
 
 #info-contato p:nth-child(1) img, 
 #info-contato p:nth-child(2) img{
@@ -145,7 +172,11 @@ span.endereco {
 }
 
 #drones-section > div, #contato-section > div {
-    background-color: var(--azul-claro);
+    background-image: url("../img/background-drones.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(26,169,225,0.91);
+    /*background-color: var(--azul-claro);*/
 }
 
 #info-mapa {
